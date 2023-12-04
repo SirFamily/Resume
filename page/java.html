@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/Rectangle.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/page.css">
+    <title>Thiraphat.Java</title>
+</head>
+
+<body>
+    <nav>
+        <div class="barnd">SirFamily</div>
+        <div class="menu">
+            <a href="../index.html">Home</a>
+            <a href="../index.html">About Me</a>
+            <a href="../index.html">Portfolio</a>
+            <a href="./java.html">Java</a>
+            <a href="./Api.html">Api</a>
+        </div>
+        <div class="contact"><a href="../index.html">Contact me</a></div>
+    </nav>
+
+    <div class="container">
+        <div class="zone">
+            <h2>calculatePoints</h2>
+            <input id="demo1" type="number" placeholder="Enter money">
+            <button type="button" onclick="calculatePoints()">ยืนยัน</button>
+            <p id="demo3"></p>
+        </div>
+    </div>
+
+    <script>
+        function calculatePoints() {
+            const moneyInput = document.getElementById("demo1");
+            const moneyValue = parseInt(moneyInput.value);
+
+            if (!isNaN(moneyValue) && moneyValue > 0) {
+                const points = Math.floor(moneyValue / 100);
+                document.getElementById("demo3").innerHTML = `Your points: ${points}`;
+            } else {
+                alert("Please enter a valid amount greater than 0.");
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -20,7 +20,7 @@ nav {
   height: 80px;
   position: fixed;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-weight: 500;
   border-bottom: 2px solid #000;
   align-items: center;
