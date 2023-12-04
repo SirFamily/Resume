@@ -54,16 +54,22 @@
 
     <div class="container">
         <div class="zone">
-         
+            <h2>DaysToSeconds</h2>
+            <input type="number" id="days" placeholder="ป้อนจำนวนวัน">
+            <button type="button" onclick="daysToSeconds()">คำนวณเป็นวินาที</button>
+            <p id="seconds"></p>
         </div>
     </div>
 
     <div class="container">
         <div class="zone">
-         
+            <h2>Fahrenheit to Celsius</h2>
+            <input type="number" id="fahrenheit" placeholder="ป้อนอุณหภูมิฟาเรนไฮต์">
+            <button type="button" onclick="convert()">แปลง</button>
+            <p id="celsius"></p>
         </div>
     </div>
-    
+
 
 
     <script>
@@ -80,26 +86,41 @@
         }
 
         function sortNumbers() {
-  const num1 = parseFloat(document.getElementById("num1").value);
-  const num2 = parseFloat(document.getElementById("num2").value);
-  const num3 = parseFloat(document.getElementById("num3").value);
+            const num1 = parseFloat(document.getElementById("num1").value);
+            const num2 = parseFloat(document.getElementById("num2").value);
+            const num3 = parseFloat(document.getElementById("num3").value);
 
-  const numbers = [num1, num2, num3];
+            const numbers = [num1, num2, num3];
 
-  numbers.sort((a, b) => b - a);
+            numbers.sort((a, b) => b - a);
 
-  document.getElementById("result").innerHTML = numbers;
-}
+            document.getElementById("result").innerHTML = numbers;
+        }
 
-function checkAge() {
-    const age = document.getElementById("age").value;
-  if (!isNaN(age) && age >= 0) {
-    const message = age >= 18 ? 'Allowed' : 'Not allowed';
-    document.getElementById("message").innerHTML = message;
-  } else {
-    document.getElementById("message").innerHTML = 'Invalid age';
-  }
-}
+        function checkAge() {
+            const age = document.getElementById("age").value;
+            if (!isNaN(age) && age >= 0) {
+                const message = age >= 18 ? 'Allowed' : 'Not allowed';
+                document.getElementById("message").innerHTML = message;
+            } else {
+                document.getElementById("message").innerHTML = 'Invalid age';
+            }
+        }
+
+        function daysToSeconds() {
+            const days = parseInt(document.getElementById("days").value);
+            const secondsPerMinute = 60;
+            const minutesPerHour = 60;
+            const hoursPerDay = 24;
+            const seconds = days * hoursPerDay * minutesPerHour * secondsPerMinute;
+            document.getElementById("seconds").innerHTML = seconds;
+        }
+
+        function convert() {
+            const fahrenheit = document.getElementById("fahrenheit").value;
+            const celsius = (fahrenheit - 32) / 1.8;
+            document.getElementById("celsius").innerHTML = celsius;
+        }
 
 
     </script>
