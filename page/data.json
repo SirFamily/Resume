@@ -1,962 +1,974 @@
 [
     {
         "country": "Afghanistan",
-        "religion": "Islam"
+        "density": 56.93776001
     },
     {
         "country": "Albania",
-        "religion": "Islam"
+        "density": 104.6122628
     },
     {
         "country": "Algeria",
-        "religion": "Islam"
+        "density": 17.73007507
     },
     {
         "country": "American Samoa",
-        "religion": "Christianity"
+        "density": 277.325
     },
     {
         "country": "Andorra",
-        "religion": "Christianity"
+        "density": 163.8425532
     },
     {
         "country": "Angola",
-        "religion": "Christianity"
+        "density": 24.71305206
     },
     {
         "country": "Anguilla",
-        "religion": "Christianity"
+        "density": 167
+    },
+    {
+        "country": "Antarctica",
+        "density": 0.0035
     },
     {
         "country": "Antigua and Barbuda",
-        "religion": "Christianity"
+        "density": 218.8318182
     },
     {
         "country": "Argentina",
-        "religion": "Christianity"
+        "density": 16.2585101
     },
     {
         "country": "Armenia",
-        "religion": "Christianity"
+        "density": 103.6802248
     },
     {
         "country": "Aruba",
-        "religion": "Christianity"
-    },
-    {
-        "country": "Asia-Pacific",
-        "religion": "Hinduism"
+        "density": 588.0277778
     },
     {
         "country": "Australia",
-        "religion": "Christianity"
+        "density": 3.249129487
     },
     {
         "country": "Austria",
-        "religion": "Christianity"
+        "density": 107.2069267
     },
     {
         "country": "Azerbaijan",
-        "religion": "Islam"
+        "density": 120.2653199
     },
     {
         "country": "Bahamas",
-        "religion": "Christianity"
+        "density": 38.52547453
     },
     {
         "country": "Bahrain",
-        "religion": "Islam"
+        "density": 2017.2737
     },
     {
         "country": "Bangladesh",
-        "religion": "Islam"
+        "density": 1239.579312
     },
     {
         "country": "Barbados",
-        "religion": "Christianity"
+        "density": 666.6069767
     },
     {
         "country": "Belarus",
-        "religion": "Christianity"
+        "density": 46.7287999
     },
     {
         "country": "Belgium",
-        "religion": "Christianity"
+        "density": 377.2149273
     },
     {
         "country": "Belize",
-        "religion": "Christianity"
+        "density": 16.79399386
     },
     {
         "country": "Benin",
-        "religion": "Christianity"
+        "density": 101.8539198
     },
     {
         "country": "Bermuda",
-        "religion": "Christianity"
+        "density": 1184.592572
     },
     {
         "country": "Bhutan",
-        "religion": "Buddhism"
+        "density": 19.77752777
     },
     {
         "country": "Bolivia",
-        "religion": "Christianity"
+        "density": 10.48014585
     },
     {
         "country": "Bosnia and Herzegovina",
-        "religion": "Christianity"
+        "density": 64.92048828
     },
     {
         "country": "Botswana",
-        "religion": "Christianity"
+        "density": 3.977424876
+    },
+    {
+        "country": "Bouvet Island",
+        "density": 0
     },
     {
         "country": "Brazil",
-        "religion": "Christianity"
+        "density": 25.06171624
     },
     {
-        "country": "British Virgin Islands",
-        "religion": "Christianity"
+        "country": "British Indian Ocean Territory",
+        "density": 58.3
     },
     {
         "country": "Brunei",
-        "religion": "Islam"
+        "density": 81.39696395
     },
     {
         "country": "Bulgaria",
-        "religion": "Christianity"
+        "density": 64.70353721
     },
     {
         "country": "Burkina Faso",
-        "religion": "Islam"
+        "density": 72.19128289
     },
     {
         "country": "Burundi",
-        "religion": "Christianity"
+        "density": 435.178271
     },
     {
         "country": "Cambodia",
-        "religion": "Buddhism"
+        "density": 92.05641287
     },
     {
         "country": "Cameroon",
-        "religion": "Christianity"
+        "density": 53.34398891
     },
     {
         "country": "Canada",
-        "religion": "Christianity"
+        "density": 4.075308214
     },
     {
         "country": "Cape Verde",
-        "religion": "Christianity"
-    },
-    {
-        "country": "Caribbean Netherlands",
-        "religion": "Christianity"
+        "density": 134.9297767
     },
     {
         "country": "Cayman Islands",
-        "religion": "Christianity"
+        "density": 267.3916667
     },
     {
         "country": "Central African Republic",
-        "religion": "Christianity"
+        "density": 7.490412212
     },
     {
         "country": "Chad",
-        "religion": "Islam"
-    },
-    {
-        "country": "Channel Islands",
-        "religion": "Christianity"
+        "density": 12.29173364
     },
     {
         "country": "Chile",
-        "religion": "Christianity"
+        "density": 25.18944607
     },
     {
         "country": "China",
-        "religion": "Unaffiliated Religions"
+        "density": 148.3488333
+    },
+    {
+        "country": "Christmas Island",
+        "density": 10.39
+    },
+    {
+        "country": "Cocos (Keeling) Islands",
+        "density": 40.46
     },
     {
         "country": "Colombia",
-        "religion": "Christianity"
+        "density": 44.74870212
     },
     {
         "country": "Comoros",
-        "religion": "Islam"
+        "density": 447.2444775
     },
     {
         "country": "Congo",
-        "religion": "Christianity"
+        "density": 15.35684627
     },
     {
         "country": "Cook Islands",
-        "religion": "Christianity"
+        "density": 73
     },
     {
         "country": "Costa Rica",
-        "religion": "Christianity"
-    },
-    {
-        "country": "Cote d'Ivoire",
-        "religion": "Christianity"
+        "density": 97.91306306
     },
     {
         "country": "Croatia",
-        "religion": "Christianity"
+        "density": 73.077198
     },
     {
         "country": "Cuba",
-        "religion": "Christianity"
-    },
-    {
-        "country": "Curacao",
-        "religion": "Christianity"
+        "density": 108.9995962
     },
     {
         "country": "Cyprus",
-        "religion": "Christianity"
+        "density": 128.7083333
     },
     {
         "country": "Czech Republic",
-        "religion": "Unaffiliated Religions"
-    },
-    {
-        "country": "Democratic Republic of Congo",
-        "religion": "Christianity"
+        "density": 137.6028879
     },
     {
         "country": "Denmark",
-        "religion": "Christianity"
+        "density": 138.0673017
     },
     {
         "country": "Djibouti",
-        "religion": "Islam"
+        "density": 41.36842105
     },
     {
         "country": "Dominica",
-        "religion": "Christianity"
+        "density": 95.5
     },
     {
         "country": "Dominican Republic",
-        "religion": "Christianity"
+        "density": 219.9785759
+    },
+    {
+        "country": "East Timor",
+        "density": 85.27
     },
     {
         "country": "Ecuador",
-        "religion": "Christianity"
+        "density": 68.78868175
     },
     {
         "country": "Egypt",
-        "religion": "Islam"
+        "density": 98.87346929
     },
     {
         "country": "El Salvador",
-        "religion": "Christianity"
+        "density": 309.8814672
+    },
+    {
+        "country": "England",
+        "density": 259
     },
     {
         "country": "Equatorial Guinea",
-        "religion": "Christianity"
+        "density": 46.66573975
     },
     {
         "country": "Eritrea",
-        "religion": "Christianity"
+        "density": 35
     },
     {
         "country": "Estonia",
-        "religion": "Unaffiliated Religions"
+        "density": 30.38610536
     },
     {
         "country": "Ethiopia",
-        "religion": "Christianity"
-    },
-    {
-        "country": "Europe",
-        "religion": "Christianity"
-    },
-    {
-        "country": "Faeroe Islands",
-        "religion": "Christianity"
+        "density": 109.224559
     },
     {
         "country": "Falkland Islands",
-        "religion": "Christianity"
+        "density": 0.28
     },
     {
-        "country": "Fiji",
-        "religion": "Christianity"
+        "country": "Faroe Islands",
+        "density": 34.73996983
+    },
+    {
+        "country": "Fiji Islands",
+        "density": 48.35703339
     },
     {
         "country": "Finland",
-        "religion": "Christianity"
+        "density": 18.15685565
     },
     {
         "country": "France",
-        "religion": "Christianity"
+        "density": 122.3383957
     },
     {
         "country": "French Guiana",
-        "religion": "Christianity"
+        "density": 3.5
     },
     {
         "country": "French Polynesia",
-        "religion": "Christianity"
+        "density": 75.86857923
+    },
+    {
+        "country": "French Southern territories",
+        "density": 0
     },
     {
         "country": "Gabon",
-        "religion": "Christianity"
+        "density": 8.224764233
     },
     {
         "country": "Gambia",
-        "religion": "Islam"
+        "density": 225.3065217
     },
     {
         "country": "Georgia",
-        "religion": "Christianity"
+        "density": 65.27520207
     },
     {
         "country": "Germany",
-        "religion": "Christianity"
+        "density": 237.3709698
     },
     {
         "country": "Ghana",
-        "religion": "Christianity"
+        "density": 130.8214292
     },
     {
         "country": "Gibraltar",
-        "religion": "Christianity"
+        "density": 3371.8
     },
     {
         "country": "Greece",
-        "religion": "Christianity"
+        "density": 83.22473235
     },
     {
         "country": "Greenland",
-        "religion": "Christianity"
+        "density": 0.136496528
     },
     {
         "country": "Grenada",
-        "religion": "Christianity"
+        "density": 327.8058824
     },
     {
         "country": "Guadeloupe",
-        "religion": "Christianity"
+        "density": 243.1
     },
     {
         "country": "Guam",
-        "religion": "Christianity"
+        "density": 306.9777778
     },
     {
         "country": "Guatemala",
-        "religion": "Christianity"
+        "density": 160.9537794
     },
     {
         "country": "Guinea",
-        "religion": "Islam"
+        "density": 50.52221227
     },
     {
         "country": "Guinea-Bissau",
-        "religion": "Islam"
+        "density": 66.65394737
     },
     {
         "country": "Guyana",
-        "religion": "Christianity"
+        "density": 3.957348235
     },
     {
         "country": "Haiti",
-        "religion": "Christianity"
+        "density": 403.5985486
+    },
+    {
+        "country": "Heard Island and McDonald Islands",
+        "density": 0
+    },
+    {
+        "country": "Holy See (Vatican City State)",
+        "density": 924
     },
     {
         "country": "Honduras",
-        "religion": "Christianity"
+        "density": 85.68703191
     },
     {
         "country": "Hong Kong",
-        "religion": "Unaffiliated Religions"
+        "density": 7096.190476
     },
     {
         "country": "Hungary",
-        "religion": "Christianity"
+        "density": 107.9066055
     },
     {
         "country": "Iceland",
-        "religion": "Christianity"
+        "density": 3.526922693
     },
     {
         "country": "India",
-        "religion": "Hinduism"
+        "density": 454.9380726
     },
     {
         "country": "Indonesia",
-        "religion": "Islam"
+        "density": 147.7521901
     },
     {
         "country": "Iran",
-        "religion": "Islam"
+        "density": 50.22242012
     },
     {
         "country": "Iraq",
-        "religion": "Islam"
+        "density": 88.53057004
     },
     {
         "country": "Ireland",
-        "religion": "Christianity"
-    },
-    {
-        "country": "Isle of Man",
-        "religion": "Christianity"
+        "density": 70.45298302
     },
     {
         "country": "Israel",
-        "religion": "Judaism"
+        "density": 410.5268022
     },
     {
         "country": "Italy",
-        "religion": "Christianity"
+        "density": 205.4507479
+    },
+    {
+        "country": "Ivory Coast",
+        "density": 78.83405346
     },
     {
         "country": "Jamaica",
-        "religion": "Christianity"
+        "density": 270.9930748
     },
     {
         "country": "Japan",
-        "religion": "Unaffiliated Religions"
+        "density": 347.0734584
     },
     {
         "country": "Jordan",
-        "religion": "Islam"
+        "density": 112.1424983
     },
     {
         "country": "Kazakhstan",
-        "religion": "Islam"
+        "density": 6.769825907
     },
     {
         "country": "Kenya",
-        "religion": "Christianity"
+        "density": 90.29941666
     },
     {
         "country": "Kiribati",
-        "religion": "Christianity"
-    },
-    {
-        "country": "Kosovo",
-        "religion": "Islam"
+        "density": 143.0209877
     },
     {
         "country": "Kuwait",
-        "religion": "Islam"
+        "density": 232.1722222
     },
     {
         "country": "Kyrgyzstan",
-        "religion": "Islam"
+        "density": 32.92909281
     },
     {
         "country": "Laos",
-        "religion": "Buddhism"
-    },
-    {
-        "country": "Latin America-Caribbean",
-        "religion": "Christianity"
+        "density": 30.59578423
     },
     {
         "country": "Latvia",
-        "religion": "Christianity"
+        "density": 30.98330653
     },
     {
         "country": "Lebanon",
-        "religion": "Islam"
+        "density": 669.4941349
     },
     {
         "country": "Lesotho",
-        "religion": "Christianity"
+        "density": 69.43781291
     },
     {
         "country": "Liberia",
-        "religion": "Christianity"
+        "density": 50.03090739
     },
     {
-        "country": "Libya",
-        "religion": "Islam"
+        "country": "Libyan Arab Jamahiriya",
+        "density": 3.795632381
     },
     {
         "country": "Liechtenstein",
-        "religion": "Christianity"
+        "density": 236.9375
     },
     {
         "country": "Lithuania",
-        "religion": "Christianity"
+        "density": 44.53135138
     },
     {
         "country": "Luxembourg",
-        "religion": "Christianity"
+        "density": 250.0938272
     },
     {
         "country": "Macao",
-        "religion": "Folk Religions"
+        "density": 20777.50026
     },
     {
-        "country": "Macedonia",
-        "religion": "Christianity"
+        "country": "North Macedonia",
+        "density": 82.6
     },
     {
         "country": "Madagascar",
-        "religion": "Christianity"
+        "density": 45.13985562
     },
     {
         "country": "Malawi",
-        "religion": "Christianity"
+        "density": 192.4407616
     },
     {
         "country": "Malaysia",
-        "religion": "Islam"
+        "density": 95.96282149
     },
     {
         "country": "Maldives",
-        "religion": "Islam"
+        "density": 1718.986667
     },
     {
         "country": "Mali",
-        "religion": "Islam"
+        "density": 15.63501586
     },
     {
         "country": "Malta",
-        "religion": "Christianity"
+        "density": 1511.03125
     },
     {
         "country": "Marshall Islands",
-        "religion": "Christianity"
+        "density": 324.5166667
     },
     {
         "country": "Martinique",
-        "religion": "Christianity"
+        "density": 330
     },
     {
         "country": "Mauritania",
-        "religion": "Islam"
+        "density": 4.272163578
     },
     {
         "country": "Mauritius",
-        "religion": "Hinduism"
+        "density": 623.3019704
     },
     {
         "country": "Mayotte",
-        "religion": "Islam"
+        "density": 728
     },
     {
         "country": "Mexico",
-        "religion": "Christianity"
+        "density": 64.91462641
     },
     {
-        "country": "Micronesia (country)",
-        "religion": "Christianity"
-    },
-    {
-        "country": "Middle East-North Africa",
-        "religion": "Islam"
+        "country": "Micronesia, Federated States of",
+        "density": 160.9142857
     },
     {
         "country": "Moldova",
-        "religion": "Christianity"
+        "density": 123.5198035
     },
     {
         "country": "Monaco",
-        "religion": "Christianity"
+        "density": 19196
     },
     {
         "country": "Mongolia",
-        "religion": "Buddhism"
-    },
-    {
-        "country": "Montenegro",
-        "religion": "Christianity"
+        "density": 2.040608667
     },
     {
         "country": "Montserrat",
-        "religion": "Christianity"
+        "density": 50
     },
     {
         "country": "Morocco",
-        "religion": "Islam"
+        "density": 80.72851893
     },
     {
         "country": "Mozambique",
-        "religion": "Christianity"
+        "density": 37.50853531
     },
     {
         "country": "Myanmar",
-        "religion": "Buddhism"
+        "density": 82.23861548
     },
     {
         "country": "Namibia",
-        "religion": "Christianity"
+        "density": 2.973745582
     },
     {
         "country": "Nauru",
-        "religion": "Christianity"
+        "density": 635.2
     },
     {
         "country": "Nepal",
-        "religion": "Hinduism"
+        "density": 195.9391071
     },
     {
         "country": "Netherlands",
-        "religion": "Christianity"
+        "density": 511.4579104
+    },
+    {
+        "country": "Netherlands Antilles",
+        "density": 80
     },
     {
         "country": "New Caledonia",
-        "religion": "Christianity"
+        "density": 15.53938731
     },
     {
         "country": "New Zealand",
-        "religion": "Christianity"
+        "density": 18.55417569
     },
     {
         "country": "Nicaragua",
-        "religion": "Christianity"
+        "density": 53.72704836
     },
     {
         "country": "Niger",
-        "religion": "Islam"
+        "density": 17.71765059
     },
     {
         "country": "Nigeria",
-        "religion": "Christianity"
+        "density": 215.064989
     },
     {
         "country": "Niue",
-        "religion": "Christianity"
+        "density": 5.35
     },
     {
-        "country": "North America",
-        "religion": "Christianity"
+        "country": "Norfolk Island",
+        "density": 61.9
     },
     {
         "country": "North Korea",
-        "religion": "Unaffiliated Religions"
+        "density": 212.1901752
+    },
+    {
+        "country": "Northern Ireland",
+        "density": 133
     },
     {
         "country": "Northern Mariana Islands",
-        "religion": "Christianity"
+        "density": 123.6565217
     },
     {
         "country": "Norway",
-        "religion": "Christianity"
+        "density": 14.55491954
     },
     {
         "country": "Oman",
-        "religion": "Islam"
+        "density": 15.6041454
     },
     {
         "country": "Pakistan",
-        "religion": "Islam"
+        "density": 275.2893187
     },
     {
         "country": "Palau",
-        "religion": "Christianity"
+        "density": 38.92826087
     },
     {
         "country": "Palestine",
-        "religion": "Islam"
+        "density": 758.9845515
     },
     {
         "country": "Panama",
-        "religion": "Christianity"
+        "density": 56.18607748
     },
     {
         "country": "Papua New Guinea",
-        "religion": "Christianity"
+        "density": 19.00436338
     },
     {
         "country": "Paraguay",
-        "religion": "Christianity"
+        "density": 17.50835892
     },
     {
         "country": "Peru",
-        "religion": "Christianity"
+        "density": 24.99160625
     },
     {
         "country": "Philippines",
-        "religion": "Christianity"
+        "density": 357.6883053
+    },
+    {
+        "country": "Pitcairn",
+        "density": 10
     },
     {
         "country": "Poland",
-        "religion": "Christianity"
+        "density": 124.0358862
     },
     {
         "country": "Portugal",
-        "religion": "Christianity"
+        "density": 112.2394535
     },
     {
         "country": "Puerto Rico",
-        "religion": "Christianity"
+        "density": 360.2201804
     },
     {
         "country": "Qatar",
-        "religion": "Islam"
+        "density": 239.5931955
     },
     {
         "country": "Reunion",
-        "religion": "Christianity"
+        "density": 358
     },
     {
         "country": "Romania",
-        "religion": "Christianity"
+        "density": 84.63984701
     },
     {
-        "country": "Russia",
-        "religion": "Christianity"
+        "country": "Russian Federation",
+        "density": 8.822079555
     },
     {
         "country": "Rwanda",
-        "religion": "Christianity"
+        "density": 498.6598703
     },
     {
         "country": "Saint Helena",
-        "religion": "Christianity"
+        "density": 37.3
     },
     {
         "country": "Saint Kitts and Nevis",
-        "religion": "Christianity"
+        "density": 201.6961538
     },
     {
         "country": "Saint Lucia",
-        "religion": "Christianity"
+        "density": 298.1786885
     },
     {
         "country": "Saint Pierre and Miquelon",
-        "religion": "Christianity"
+        "density": 26.0
     },
     {
         "country": "Saint Vincent and the Grenadines",
-        "religion": "Christianity"
+        "density": 282.5897436
     },
     {
         "country": "Samoa",
-        "religion": "Christianity"
+        "density": 69.30388693
     },
     {
         "country": "San Marino",
-        "religion": "Christianity"
+        "density": 563.0833333
     },
     {
         "country": "Sao Tome and Principe",
-        "religion": "Christianity"
+        "density": 219.8208333
     },
     {
         "country": "Saudi Arabia",
-        "religion": "Islam"
+        "density": 15.67665431
+    },
+    {
+        "country": "Scotland",
+        "density": 67.2
     },
     {
         "country": "Senegal",
-        "religion": "Islam"
+        "density": 82.34747832
     },
     {
         "country": "Serbia",
-        "religion": "Christianity"
+        "density": 100
     },
     {
         "country": "Seychelles",
-        "religion": "Christianity"
+        "density": 210.3521739
     },
     {
         "country": "Sierra Leone",
-        "religion": "Islam"
+        "density": 105.987171
     },
     {
         "country": "Singapore",
-        "religion": "Buddhism"
-    },
-    {
-        "country": "Sint Maarten (Dutch part)",
-        "religion": "Christianity"
+        "density": 7952.998418
     },
     {
         "country": "Slovakia",
-        "religion": "Christianity"
+        "density": 113.2905782
     },
     {
         "country": "Slovenia",
-        "religion": "Christianity"
+        "density": 102.6398595
     },
     {
         "country": "Solomon Islands",
-        "religion": "Christianity"
+        "density": 23.32468739
     },
     {
         "country": "Somalia",
-        "religion": "Islam"
+        "density": 23.9234769
     },
     {
         "country": "South Africa",
-        "religion": "Christianity"
+        "density": 47.63011978
+    },
+    {
+        "country": "South Georgia and the South Sandwich Islands",
+        "density": 0
     },
     {
         "country": "South Korea",
-        "religion": "Unaffiliated Religions"
+        "density": 529.6521036
     },
     {
         "country": "South Sudan",
-        "religion": "Christianity"
+        "density": 20.3
     },
     {
         "country": "Spain",
-        "religion": "Christianity"
+        "density": 93.52905826
     },
     {
         "country": "Sri Lanka",
-        "religion": "Buddhism"
-    },
-    {
-        "country": "Sub-Saharan Africa",
-        "religion": "Christianity"
+        "density": 345.558922
     },
     {
         "country": "Sudan",
-        "religion": "Islam"
+        "density": 20.73
     },
     {
         "country": "Suriname",
-        "religion": "Christianity"
+        "density": 3.69225
+    },
+    {
+        "country": "Svalbard and Jan Mayen",
+        "density": 0.044
     },
     {
         "country": "Swaziland",
-        "religion": "Christianity"
+        "density": 66.05761628
     },
     {
         "country": "Sweden",
-        "religion": "Christianity"
+        "density": 25.00104343
     },
     {
         "country": "Switzerland",
-        "religion": "Christianity"
+        "density": 215.5213784
     },
     {
         "country": "Syria",
-        "religion": "Islam"
-    },
-    {
-        "country": "Taiwan",
-        "religion": "Folk Religions"
+        "density": 92.06710777
     },
     {
         "country": "Tajikistan",
-        "religion": "Islam"
+        "density": 65.57271417
     },
     {
         "country": "Tanzania",
-        "religion": "Christianity"
+        "density": 63.5790788
     },
     {
         "country": "Thailand",
-        "religion": "Buddhism"
+        "density": 135.8972068
     },
     {
-        "country": "Timor",
-        "religion": "Christianity"
+        "country": "The Democratic Republic of Congo",
+        "density": 37.08259236
     },
     {
         "country": "Togo",
-        "religion": "Christianity"
+        "density": 145.0467733
     },
     {
         "country": "Tokelau",
-        "religion": "Christianity"
+        "density": 115
     },
     {
         "country": "Tonga",
-        "religion": "Christianity"
+        "density": 143.3291667
     },
     {
         "country": "Trinidad and Tobago",
-        "religion": "Christianity"
+        "density": 270.9274854
     },
     {
         "country": "Tunisia",
-        "religion": "Islam"
+        "density": 74.44132338
     },
     {
         "country": "Turkey",
-        "religion": "Islam"
+        "density": 106.9601289
     },
     {
         "country": "Turkmenistan",
-        "religion": "Islam"
+        "density": 12.45059477
     },
     {
         "country": "Turks and Caicos Islands",
-        "religion": "Christianity"
+        "density": 39.64736842
     },
     {
         "country": "Tuvalu",
-        "religion": "Christianity"
+        "density": 383.6
     },
     {
         "country": "Uganda",
-        "religion": "Christianity"
+        "density": 213.0617345
     },
     {
         "country": "Ukraine",
-        "religion": "Christianity"
+        "density": 77.02966735
     },
     {
         "country": "United Arab Emirates",
-        "religion": "Islam"
+        "density": 135.6091101
     },
     {
         "country": "United Kingdom",
-        "religion": "Christianity"
+        "density": 274.8273922
     },
     {
         "country": "United States",
-        "religion": "Christianity"
+        "density": 35.76608858
     },
     {
-        "country": "United States Virgin Islands",
-        "religion": "Christianity"
+        "country": "United States Minor Outlying Islands",
+        "density": 9
     },
     {
         "country": "Uruguay",
-        "religion": "Christianity"
+        "density": 19.70802765
     },
     {
         "country": "Uzbekistan",
-        "religion": "Islam"
+        "density": 77.46920545
     },
     {
         "country": "Vanuatu",
-        "religion": "Christianity"
-    },
-    {
-        "country": "Vatican",
-        "religion": "Christianity"
+        "density": 24.00984413
     },
     {
         "country": "Venezuela",
-        "religion": "Christianity"
+        "density": 32.73079191
     },
     {
         "country": "Vietnam",
-        "religion": "Folk Religions"
+        "density": 308.1252459
+    },
+    {
+        "country": "Virgin Islands, British",
+        "density": 198.68
+    },
+    {
+        "country": "Virgin Islands, U.S.",
+        "density": 305.6485714
+    },
+    {
+        "country": "Wales",
+        "density": 151.4
     },
     {
         "country": "Wallis and Futuna",
-        "religion": "Christianity"
+        "density": 83.55
     },
     {
         "country": "Western Sahara",
-        "religion": "Islam"
+        "density": 2.03
     },
     {
         "country": "Yemen",
-        "religion": "Islam"
+        "density": 53.97785291
     },
     {
         "country": "Zambia",
-        "religion": "Christianity"
+        "density": 23.3414789
     },
     {
         "country": "Zimbabwe",
-        "religion": "Christianity"
+        "density": 37.32459093
     }
 ]
