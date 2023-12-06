@@ -49,6 +49,16 @@
 
     <div class="container">
         <div class="zone">
+            <h1>Genderize API</h1>
+            <label for="nameInput">Enter a name:</label>
+            <input type="text" id="nameInput" placeholder="Enter name">
+            <button onclick="getGender()">Get Gender</button>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="zone">
             <h2>Crypto Price Update</h2>
             <p id="cryptoPrice">Loading...</p>
         </div>
@@ -108,6 +118,20 @@
     window.onload = function() {
         updateCryptoPrice();
     };
+</script>
+<script>
+    function getGender() {
+        const inputName = document.getElementById('nameInput').value;
+        const apiUrl = `https://api.genderize.io/?name=${inputName}`;
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('result').innerText = `Name: ${data.name}, Gender: ${data.gender}, Probability: ${data.probability}`;
+            })
+            .catch(error => {
+                console.error('Error fetching gender data:', error);
+            });
+    }
 </script>
 </body>
 
