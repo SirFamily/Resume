@@ -25,7 +25,7 @@
     <div class="container">
         <div class="zone">
             <h2>HTML to Google sheet</h2>
-            <form method="POST"
+            <form method="POST" id="my-form"
                 action="https://script.google.com/macros/s/AKfycbwyQWed3NK2vER0vcow1xBL1veLh_UfO9dFJFyqslcYLpv1GNI7vxrHQe9JgBK-3mSQBQ/exec">
                 <input name="Email" type="email" placeholder="Email" required>
                 <input name="Name" type="text" placeholder="Name" required>
@@ -37,7 +37,24 @@
         </div>
     </div>
 
+    <script>
+        window.addEventListener("load", function () {
+            const form = document.getElementById('my-form');
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+                const data = new FormData(form);
+                const action = e.target.action;
+                fetch(action, {
+                    method: 'POST',
+                    body: data,
+                })
+                    .then(() => {
+                        alert("Success!");
+                    })
+            });
+        });
 
+    </script>
 </body>
 
 </html>
