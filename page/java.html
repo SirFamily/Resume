@@ -70,6 +70,80 @@
         </div>
     </div>
 
+    <div class="container">
+        <div class="zone">
+            <div class="grap">
+                <canvas id="myChart"></canvas>
+              </div>
+        </div>
+    </div>
+
+    <canvas id="myChart2" width="400" height="200"></canvas>
+
+
+    
+
+    
+      
+
+
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script>
+        const ctx = document.getElementById('myChart');
+      
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: ['Grade 1', 'Grade 2', 'Grade 3', 'Grade 4', 'Grade 5', 'Grade 6'],
+            datasets: [{
+              label: 'Number of students',
+              data: [12, 39, 1, 15, 32, 7],
+              backgroundColor: ['red', 'blue', 'yellow', 'green', 'purple', 'orange'],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+
+
+<script>
+    
+    document.addEventListener("DOMContentLoaded", function() {
+        fetch('https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population-density.json')
+          .then(response => response.json())
+          .then(data => {
+            const countries = data.map(country => country.country);
+            const density = data.map(country => country.density);
+    
+            const lineColor = "Green";
+    
+            new Chart("myChart2", {
+              type: "line",
+              data: {
+                labels: countries,
+                datasets: [{
+                  label: 'population-density',
+                  data: density,
+                  borderColor: lineColor,
+                  fill: false
+                }]
+              },
+              options: {
+               
+              }
+            });
+          })
+      });
+    
+    </script>
+
 
 
     <script>
