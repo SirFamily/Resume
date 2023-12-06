@@ -40,6 +40,15 @@
 
     <div class="container">
         <div class="zone">
+            <h1>Random Activity Generator</h1>
+
+<p id="activity-result">Click the button to get a random activity!</p>
+
+<button id="generate-button">Generate Random Activity</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="zone">
             <h1>Random Joke Generator</h1>
     <button onclick="fetchRandomJoke()">Get Random Joke</button>
     <div id="jokeSetup"></div>
@@ -88,7 +97,23 @@
     </div>
 
 
-
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          // เลือกปุ่มและส่ง function เมื่อคลิก
+          document.getElementById('generate-button').addEventListener('click', function() {
+            // ทำ HTTP request ไปยัง API
+            fetch('https://www.boredapi.com/api/activity')
+              .then(response => response.json())
+              .then(data => {
+                // แสดงผลลัพธ์ใน element ที่มี id เป็น "activity-result"
+                document.getElementById('activity-result').innerText = `Random Activity: ${data.activity}`;
+              })
+              .catch(error => {
+                console.error('Error fetching data:', error);
+              });
+          });
+        });
+        </script>
     <script>
         function getRandomDogImage() {
             fetch('https://dog.ceo/api/breeds/image/random')
