@@ -42,10 +42,15 @@
             <h2>Random Dog Image</h2>
             <div class="container-img">
                 <img id="dogImage" alt="Random Dog Image" style="width: 100%;height: 100%; object-fit: cover;">
-
             </div>
-
             <button onclick="getRandomDogImage()">Get Random Dog Image</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="zone">
+            <h2>Crypto Price Update</h2>
+            <p id="cryptoPrice">Loading...</p>
         </div>
     </div>
 
@@ -82,6 +87,28 @@
         });
 
     </script>
+
+<script>
+    function fetchCryptoPrice() {
+        fetch('https://api.coinbase.com/v2/exchange-rates?currency=BTC')
+            .then(response => response.json())
+            .then(data => {
+                const btcPrice = data.data.rates.USD;
+                document.getElementById('cryptoPrice').innerText = `Current BTC Price: $${btcPrice}`;
+            })
+            .catch(error => {
+                console.error('Error fetching crypto price:', error);
+            });
+    }
+
+    function updateCryptoPrice() {
+        fetchCryptoPrice();
+        setTimeout(updateCryptoPrice, 30000);
+    }
+    window.onload = function() {
+        updateCryptoPrice();
+    };
+</script>
 </body>
 
 </html>
