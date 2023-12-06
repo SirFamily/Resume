@@ -34,7 +34,8 @@
             </form>
             <br>
             <iframe
-                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTfb3b4-NH5E1FNF7DGviyggMhqWP4PRBlx6ZFz3oqKhGtOSKQ44yLx7RT2FQ2KzQmzmqtCl9L71eYr/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="width: auto;"></iframe>
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTfb3b4-NH5E1FNF7DGviyggMhqWP4PRBlx6ZFz3oqKhGtOSKQ44yLx7RT2FQ2KzQmzmqtCl9L71eYr/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
+                style="width: 430px;"></iframe>
         </div>
     </div>
 
@@ -42,17 +43,17 @@
         <div class="zone">
             <h1>Random Activity Generator</h1>
 
-<p id="activity-result">Click the button to get a random activity!</p>
+            <p id="activity-result">Click the button to get a random activity!</p>
 
-<button id="generate-button">Generate Random Activity</button>
+            <button id="generate-button">Generate Random Activity</button>
         </div>
     </div>
     <div class="container">
         <div class="zone">
             <h1>Random Joke Generator</h1>
-    <button onclick="fetchRandomJoke()">Get Random Joke</button>
-    <div id="jokeSetup"></div>
-    <div id="jokeDelivery"></div>
+            <button onclick="fetchRandomJoke()">Get Random Joke</button>
+            <div id="jokeSetup"></div>
+            <div id="jokeDelivery"></div>
         </div>
     </div>
 
@@ -60,7 +61,9 @@
         <div class="zone">
             <h2>Random Dog Image</h2>
             <div class="container-img">
-                <img id="dogImage" alt="Random Dog Image" src="https://image.dogilike.com/shareimg/contentimg/2013/meaw/Breeds/Dalmatian/3.jpg" style="width: 100%;height: 100%; object-fit: cover;">
+                <img id="dogImage" alt="Random Dog Image"
+                    src="https://image.dogilike.com/shareimg/contentimg/2013/meaw/Breeds/Dalmatian/3.jpg"
+                    style="width: 100%;height: 100%; object-fit: cover;">
             </div>
             <button onclick="getRandomDogImage()">Get Random Dog Image</button>
         </div>
@@ -79,10 +82,10 @@
     <div class="container">
         <div class="zone">
             <h1>Nationalize API</h1>
-    <label for="nameInput">Enter a name:</label>
-    <input type="text" id="nameInputGetN" placeholder="Enter name">
-    <button onclick="getNationality()">Get Nationality</button>
-    <div id="result1"></div>
+            <label for="nameInput">Enter a name:</label>
+            <input type="text" id="nameInputGetN" placeholder="Enter name">
+            <button onclick="getNationality()">Get Nationality</button>
+            <div id="result1"></div>
         </div>
     </div>
 
@@ -91,29 +94,26 @@
             <h2>Crypto Price Update</h2>
             <div>
                 <p id="cryptoPrice">Loading...</p>
-            <p id="cryptoPriceTHB">Loading...</p>
+                <p id="cryptoPriceTHB">Loading...</p>
             </div>
         </div>
     </div>
 
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          // เลือกปุ่มและส่ง function เมื่อคลิก
-          document.getElementById('generate-button').addEventListener('click', function() {
-            // ทำ HTTP request ไปยัง API
-            fetch('https://www.boredapi.com/api/activity')
-              .then(response => response.json())
-              .then(data => {
-                // แสดงผลลัพธ์ใน element ที่มี id เป็น "activity-result"
-                document.getElementById('activity-result').innerText = `Random Activity: ${data.activity}`;
-              })
-              .catch(error => {
-                console.error('Error fetching data:', error);
-              });
-          });
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('generate-button').addEventListener('click', function () {
+                fetch('https://www.boredapi.com/api/activity')
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById('activity-result').innerText = `Random Activity: ${data.activity}`;
+                    })
+                    .catch(error => {
+                        console.error('Error fetching data:', error);
+                    });
+            });
         });
-        </script>
+    </script>
     <script>
         function getRandomDogImage() {
             fetch('https://dog.ceo/api/breeds/image/random')
@@ -146,74 +146,72 @@
 
     </script>
 
-<script>
-    function fetchCryptoPrice() {
-        fetch('https://api.coinbase.com/v2/exchange-rates?currency=BTC')
-            .then(response => response.json())
-            .then(data => {
-                const btcPrice = data.data.rates.USD;
-                const btcPriceTHB = data.data.rates.THB;
-                document.getElementById('cryptoPrice').innerText = `Current BTC Price: $${btcPrice}`;
-                document.getElementById('cryptoPriceTHB').innerText = `Current BTC Price: ฿${btcPriceTHB}`;
-            })
-            .catch(error => {
-                console.error('Error fetching crypto price:', error);
-            });
-    }
+    <script>
+        function fetchCryptoPrice() {
+            fetch('https://api.coinbase.com/v2/exchange-rates?currency=BTC')
+                .then(response => response.json())
+                .then(data => {
+                    const btcPrice = data.data.rates.USD;
+                    const btcPriceTHB = data.data.rates.THB;
+                    document.getElementById('cryptoPrice').innerText = `Current BTC Price: $${btcPrice}`;
+                    document.getElementById('cryptoPriceTHB').innerText = `Current BTC Price: ฿${btcPriceTHB}`;
+                })
+                .catch(error => {
+                    console.error('Error fetching crypto price:', error);
+                });
+        }
 
-    function updateCryptoPrice() {
-        fetchCryptoPrice();
-        setTimeout(updateCryptoPrice, 3000);
-    }
-    window.onload = function() {
-        updateCryptoPrice();
-    };
-</script>
-<script>
-    function getGender() {
-        const inputName = document.getElementById('nameInput').value;
-        const apiUrl = `https://api.genderize.io/?name=${inputName}`;
-        fetch(apiUrl)
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById('result').innerText = `Name: ${data.name}, Gender: ${data.gender}, Probability: ${data.probability}`;
-            })
-            .catch(error => {
-                console.error('Error fetching gender data:', error);
-            });
-    }
-</script>
+        function updateCryptoPrice() {
+            fetchCryptoPrice();
+            setTimeout(updateCryptoPrice, 3000);
+        }
+        window.onload = function () {
+            updateCryptoPrice();
+        };
+    </script>
+    <script>
+        function getGender() {
+            const inputName = document.getElementById('nameInput').value;
+            const apiUrl = `https://api.genderize.io/?name=${inputName}`;
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('result').innerText = `Name: ${data.name}, Gender: ${data.gender}, Probability: ${data.probability}`;
+                })
+                .catch(error => {
+                    console.error('Error fetching gender data:', error);
+                });
+        }
+    </script>
 
-<script>
-    function getNationality() {
-        const inputName = document.getElementById('nameInputGetN').value;
-        const apiUrl = `https://api.nationalize.io/?name=${inputName}`;
-        fetch(apiUrl)
-            .then(response => response.json())
-            .then(data => {
-                const nationalityList = data.country.map(entry => `${entry.country_id}: ${entry.probability}%`);
-                document.getElementById('result1').innerHTML = `<p>Name: ${data.name}</p><p>Nationalities: ${nationalityList.join(', ')}</p>`;
-            })
-            .catch(error => {
-                console.error('Error fetching nationality data:', error);
-            });
-    }
-</script>
-<script>
-    function fetchRandomJoke() {
-        // ใช้ Fetch API เพื่อดึงข้อมูลจาก API
-        fetch('https://official-joke-api.appspot.com/random_joke')
-            .then(response => response.json())
-            .then(data => {
-                // แสดงผลลัพธ์ใน HTML
-                document.getElementById('jokeSetup').innerText = `Poppy : ${data.setup}`;
-                document.getElementById('jokeDelivery').innerText = `James : ${data.punchline}`;
-            })
-            .catch(error => {
-                console.error('Error fetching random joke:', error);
-            });
-    }
-</script>
+    <script>
+        function getNationality() {
+            const inputName = document.getElementById('nameInputGetN').value;
+            const apiUrl = `https://api.nationalize.io/?name=${inputName}`;
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    const nationalityList = data.country.map(entry => `${entry.country_id}: ${entry.probability}%`);
+                    document.getElementById('result1').innerHTML = `<p>Name: ${data.name}</p><p>Nationalities: ${nationalityList.join(', ')}</p>`;
+                })
+                .catch(error => {
+                    console.error('Error fetching nationality data:', error);
+                });
+        }
+    </script>
+    <script>
+        function fetchRandomJoke() {
+            fetch('https://official-joke-api.appspot.com/random_joke')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('jokeSetup').innerText = `Poppy : ${data.setup}`;
+                    document.getElementById('jokeDelivery').innerText = `James : ${data.punchline}`;
+                })
+                .catch(error => {
+                    console.error('Error fetching random joke:', error);
+                });
+        }
+    </script>
 </body>
 
 </html>
